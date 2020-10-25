@@ -28,20 +28,15 @@ function AboutBody(){
 						<a href="mPaigeResume.pdf">Resume</a>
 					</p>
 					<div className="container">
-					
+				
 						<link
 							rel="stylesheet"
 							href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
 						/>
 			
-						<a
-							href="https://www.facebook.com/marcia.a.paige/"
-							className="fa fa-facebook"
-						></a>
-						<a
-							href="https://www.linkedin.com/in/marcia-paige-04ba13167/"
-							className="fa fa-linkedin"
-						></a>
+						<a href="https://www.facebook.com/marcia.a.paige/" className="fa fa-facebook"></a>
+					
+						<a href="https://www.linkedin.com/in/marcia-paige-04ba13167/" className="fa fa-linkedin"></a>
 					</div>
 		
 				</div>

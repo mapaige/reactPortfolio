@@ -8,7 +8,7 @@ function About() {
   return (
 
     <>
-    
+    <Nav/>
     <AboutBody/>
     </>
 
