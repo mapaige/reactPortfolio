@@ -1,0 +1,13 @@
+.navbar {
+	background: transparent;
+	padding: 1em;
+}
+
+.navbar-nav .nav-item ::after {
+	content: '|';
+	padding: 1em;
+}
+
+.navbar-nav .nav-item:last-child ::after {
+	content: '';
+}

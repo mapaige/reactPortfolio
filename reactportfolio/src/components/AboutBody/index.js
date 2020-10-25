@@ -1,12 +1,13 @@
 import React from "react";
 import Container from "../Container"
+
 function AboutBody(){
   return(
     <Container>
       	<h1>About Me</h1>
 			<hr />
 			<div className="row" className="card-img-top embed-responsive-item">
-				<img src="images\curly-top.jpg" alt="photo of Marcia Angelique" />
+				<img src="images\curly-top.jpg"  />
 
 				<div className="col">
 					<p>
