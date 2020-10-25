@@ -1,9 +1,18 @@
 import React from "react";
-// import <h1> from "./components/PortfolioContainer";
+ import {BrowserRouter as Router, Route } from "react-router-dom";
+ import About from "./pages/About";
+//  import Portfolio from  "./pages/Portfolio"
+  import Nav from "./components/Nav"
+// import Header from "./components/Header";
+// import Footer from "./components/Footer"
 
 const App = function(){
-  return(<h1>Hello World</h1>)
+  return(<Router>
+    <Nav/>
+    <Route exact path="/" component ={About}/>
+  </Router>)
 }
 
+export default App;
 
-export default App; 
+
